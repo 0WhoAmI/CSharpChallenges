@@ -10,19 +10,17 @@
         public int[] TwoSum(int[] nums, int target)
         {
             // Słownik przechowujący wartość liczby i jej indeks
-            var dict = new Dictionary<int, int>();
-
-            for (int i = 0; i < nums.Length; i++)
+            Dictionary<int, int> dict = new Dictionary<int, int>();
+            dict[nums[0]] = 0;
+            for (int i = 1; i < nums.Length; i++)
             {
                 int complement = target - nums[i];
 
-                // Jeśli znaleźliśmy brakującą liczbę w słowniku, zwracamy oba indeksy
-                if (dict.ContainsKey(complement))
+                if (dict.TryGetValue(complement, out int value))
                 {
-                    return new int[] { dict[complement], i };
+                    return new int[] { value, i };
                 }
 
-                // W przeciwnym razie dodajemy obecną liczbę do słownika
                 dict[nums[i]] = i;
             }
 
