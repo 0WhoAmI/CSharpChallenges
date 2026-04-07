@@ -1,6 +1,6 @@
-﻿using CSharpChallenges.LeetCode.Easy;
+﻿using CSharpChallenges.LeetCode.Easy.RobotReturnToOrigin;
 
-namespace CSharpChallenges.Tests.LeetCode.Easy
+namespace CSharpChallenges.Tests.LeetCode.Easy.RobotReturnToOrigin
 {
     public class RobotReturnToOriginSolutionTests
     {

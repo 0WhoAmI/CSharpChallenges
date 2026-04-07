@@ -1,4 +1,4 @@
-﻿namespace CSharpChallenges.LeetCode.Easy
+﻿namespace CSharpChallenges.LeetCode.Easy.TwoSum
 {
     /// <summary>
     /// Task: Two Sum (LeetCode #1)

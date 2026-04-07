@@ -1,6 +1,6 @@
-﻿using CSharpChallenges.LeetCode.Medium;
+﻿using CSharpChallenges.LeetCode.Medium.WalkingRobotSimulation;
 
-namespace CSharpChallenges.Tests.LeetCode.Medium
+namespace CSharpChallenges.Tests.LeetCode.Medium.WalkingRobotSimulation
 {
     public class WalkingRobotSimulationSolutionTests
     {

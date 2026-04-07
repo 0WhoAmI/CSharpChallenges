@@ -1,4 +1,4 @@
-﻿namespace CSharpChallenges.LeetCode.Easy
+﻿namespace CSharpChallenges.LeetCode.Easy.RobotReturnToOrigin
 {
     /// <summary>
     /// Task: Robot Return to Origin (LeetCode #657)

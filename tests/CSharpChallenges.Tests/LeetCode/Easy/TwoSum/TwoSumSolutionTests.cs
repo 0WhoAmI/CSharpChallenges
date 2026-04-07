@@ -1,6 +1,6 @@
-﻿using CSharpChallenges.LeetCode.Easy;
+﻿using CSharpChallenges.LeetCode.Easy.TwoSum;
 
-namespace CSharpChallenges.Tests.LeetCode.Easy
+namespace CSharpChallenges.Tests.LeetCode.Easy.TwoSum
 {
     public class TwoSumSolutionTests
     {

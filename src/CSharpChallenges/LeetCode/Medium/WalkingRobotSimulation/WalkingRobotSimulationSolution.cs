@@ -1,4 +1,4 @@
-﻿namespace CSharpChallenges.LeetCode.Medium
+﻿namespace CSharpChallenges.LeetCode.Medium.WalkingRobotSimulation
 {
     /// <summary>
     /// Task: Walking Robot Simulation (LeetCode #874)
